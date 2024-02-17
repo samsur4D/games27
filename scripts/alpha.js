@@ -22,10 +22,10 @@ function handelkeyboardKeyupEvent(event){
         console.log('player pressed', playerPressed);
 
         // stop the gameeeee
-
-        if(playerPressed===Escape){
+         if(playerPressed === 'Escape'){
             gameOver();
-        }
+         }
+       
         
 
         const  currentAlphabetElement = document.getElementById('current-alphabet');
