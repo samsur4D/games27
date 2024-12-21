@@ -15,7 +15,7 @@
     <section id="home-screen" class="min-h-screen flex justify-center items-center px-5">
         <div class="flex flex-col items-center gap-6 md:gap-10 text-center">
             <h1 class="text-5xl sm:text-7xl md:text-9xl text-white font-anton">Word Clash Pro</h1>
-            <p class="text-white text-lg sm:text-xl">Unleash Your Keyboard Kung Fu : Press “Enter” to Play</p>
+            <p class="text-white text-lg sm:text-lg">Unleash Your Keyboard Kung Fu : Press “Enter” to Play</p>
             <button onclick="playnow()" class="bg-white py-3 px-6 sm:py-4 sm:px-8 md:py-5 md:px-10 rounded-2xl font-bold text-sm sm:text-base md:text-lg">Play Now</button>
         </div>
     </section>
@@ -24,12 +24,12 @@
     <section id="play-ground-zone" class="flex justify-center items-center hidden">
         <div class="flex flex-col items-center gap-10 sm:gap-20 pt-10 sm:pt-20 w-full px-5">
             <!-- Screen -->
-            <div class="sheitoo  artboard-horizontal phone-6 border-8 sm:border-[20px] border-[#010313CC] rounded-xl bg-[#FFFFFFB3] w-full max-w-[400px]">
+            <div class="sheitoo artboard artboard-horizontal phone-6 border-8 sm:border-[20px] border-[#010313CC] rounded-2xl bg-[#FFFFFFB3] w-full max-w-[400px] lg:max-w-[700px] xl:max-w-[750px]">
                 <div class="flex justify-center">
-                    <p class="bg-[#2F2941] px-2 sm:px-6 py-2 sm:pb-3 text-white rounded-b-xl text-sm sm:text-base">Don't watch keyboard while playing...</p>
+                    <p class="bg-[#2F2941] px-3 sm:px-6 py-2 sm:pb-3 text-white rounded-b-xl text-sm sm:text-base">Don't watch keyboard while playing...</p>
                 </div>
                 <div class="flex justify-center items-center h-40 sm:h-full">
-                    <p id="current-alphabet" class="text-9xl sm:text-9xl font-extrabold uppercase">Y</p>
+                    <p id="current-alphabet" class="text-6xl sm:text-9xl font-extrabold uppercase">Y</p>
                 </div>
             </div>
 
@@ -92,9 +92,9 @@
 
     <!-- Score and End -->
     <section id="score-final" class="flex justify-center items-center min-h-screen hidden">
-        <div class="text-white oreee text-center space-y-6 bg-[#FFFFFF33] p-6 md:p-7 rounded-2xl max-w-[400px] w-full">
+        <div class="text-white text-center space-y-6 bg-[#FFFFFF33] oreee p-6 md:p-7 rounded-2xl max-w-[400px] w-full">
             <h2 class="text-xl sm:text-2xl font-semibold">Game Over !!</h2>
-            <h1 class="text-6xl sm:text-5xl"><span class="font-bold">Score :</span><span id="achive-score" class="font-extrabold">0</span></h1>
+            <h1 class="text-5xl sm:text-8xl"><span class="font-bold">Score :</span><span id="achive-score" class="font-extrabold">0</span></h1>
             <button onclick="playnow()" class="button bg-white text-black py-3 px-6 rounded-xl font-bold">Play Again</button>
             <p class="text-sm sm:text-base">Practice Makes You Pro...</p>
         </div>
