@@ -104,7 +104,7 @@ function continueGame(){
 
     //  set alphabet on screen
     const currentAlphabetElement =document.getElementById('current-alphabet');
-    currentAlphabetElement.innerText = alphabet ;
+    currentAlphabetElement.innerText = alphabet                           ;
     
     // set bg color
     addBackGroundColorById(alphabet);
