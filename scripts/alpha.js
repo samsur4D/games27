@@ -31,6 +31,8 @@ function handelkeyboardKeyupEvent(event){
         const  currentAlphabetElement = document.getElementById('current-alphabet');
         const currentAlphabet = currentAlphabetElement.innerText ;
         const expectAlphabet = currentAlphabet.toLowerCase();
+
+        
     //    check right or wrong key pressed
         if(playerPressed===expectAlphabet){
             console.log('you got one point');
